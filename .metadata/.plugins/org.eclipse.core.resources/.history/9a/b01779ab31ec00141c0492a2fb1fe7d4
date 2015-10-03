@@ -1,0 +1,30 @@
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class ClienteContas{
+	protected List clientes;
+		
+	public ClienteContas(){
+		this.clientes = new ArrayList<Cliente>();
+	}
+	
+	public void addClientes(Cliente cliente){
+		this.clientes.add(cliente);
+	}
+	
+	public List getClientes(){
+		//return clientes;
+		Cliente[] cliente = null;
+		for (int i = 0; i <= clientes.size(); i++)
+			return (List) clientes.get(i);
+		return null;	
+	}
+	
+	
+	
+	
+}
+
+
+

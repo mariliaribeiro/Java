@@ -1,0 +1,45 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Cliente {
+	protected 
+		String nome;
+		String cpf;
+		List contas;
+		
+		public Cliente(String nome, String cpf){
+			this.nome = nome;
+			this.cpf = cpf;
+			this.contas = new ArrayList<CCorrente>();
+		}
+		
+		public String getCpf() {
+			return cpf;
+		}
+		
+		public void setCpf(String cpf) {
+			this.cpf = cpf;
+		}
+		
+		public String getNome() {
+			return nome;
+		}
+		
+		public void setNome(String nome) {
+			this.nome = nome;
+		}
+		
+		public void addConta(CCorrente conta){
+			this.contas.add(conta);
+		}
+		
+		public List getContas(){
+			return contas;
+		}
+		
+		public String toString() {
+			return "Nome: " + this.nome + " CPF: " + this.cpf;
+		}
+		
+
+}
