@@ -1,0 +1,18 @@
+import java.io.ObjectInputStream.GetField;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		// Criando objetos para os tipos de conta
+		CCorrente conta1 = new CCorrente(1, 1000, "Ana");
+        CEspecial conta2 = new CEspecial(2, 2000, "Joao", 5000);
+        CPoupanca conta3 = new CPoupanca(3,1000, "Ivo",1000);
+        CInvestimento conta4 = new CInvestimento(4, 1000, "Cida", 14, 10);
+        CInvestimento conta5 = new CInvestimento(5, 1000, "Eva", 22, 5);
+
+        
+        
+	}
+
+}

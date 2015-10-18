@@ -1,0 +1,8 @@
+
+public class CPoupanca {
+
+	private float saldo_minimo;
+	public CPoupanca() {
+	}
+
+}

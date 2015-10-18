@@ -1,0 +1,9 @@
+
+public class CEspecial extends CCorrente{
+
+	private float limite;
+	
+	public CEspecial() {
+	}
+
+}

@@ -1,0 +1,27 @@
+
+public class CCorrente {
+	
+	private int numero;
+	private float saldo;
+	private String cliente;
+
+	public CCorrente(int numero, float saldo, String cliente) {
+		super();
+		this.numero = numero;
+		this.saldo = saldo;
+		this.cliente = cliente;
+	}
+	
+	
+	public void creditar(float valor){
+		this.saldo += valor;
+	}
+	
+	public void debitar(float valor){
+		this.saldo -= valor;
+	}
+	
+	public float getSaldo(){
+		return this.saldo;
+	}
+}

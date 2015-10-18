@@ -1,0 +1,20 @@
+
+public class CPoupanca extends CCorrente{
+
+	private float saldo_minimo;
+	
+	
+	public CPoupanca(int numero, float saldo, String cliente, float saldo_minimo) {
+		super(numero, saldo, cliente);
+		this.saldo_minimo = saldo_minimo;
+	}
+
+	@Override
+	public void debitar(float valor){
+		
+	}
+	
+	public float getSaldoMinimo(){
+		return this.saldo_minimo;
+	}
+}

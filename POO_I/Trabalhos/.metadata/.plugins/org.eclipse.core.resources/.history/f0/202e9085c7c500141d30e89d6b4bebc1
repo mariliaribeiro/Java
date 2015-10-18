@@ -1,0 +1,10 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		CCorrente conta1 = new CCorrente(1, 1000, "Ana");
+		
+
+	}
+
+}

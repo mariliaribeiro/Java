@@ -1,0 +1,21 @@
+import java.util.Date;
+
+
+public class CInvestimento extends CCorrente{
+
+	private 
+		Date dia_investimento;
+		int periodo;
+		
+	public CInvestimento(int numero, float saldo, String cliente, Date dia, int periodo) {
+		super(numero, saldo, cliente);
+		this.dia_investimento = dia;
+		this.periodo = periodo;
+	}
+	
+	public void atualizarSaldo(){
+		Date hoje = new Date();
+		this.dia_investimento = hoje.getDate();
+	}
+
+}
